@@ -1,0 +1,149 @@
+@media (max-width: 767px) {
+    h1 {
+        text-align: center;
+    }
+    #carousel-tabs,
+    section#header,
+    #porn-play {
+        display: none;
+    }
+    .status-control {
+        right: 15px;
+        top: 100px;
+    }
+    #menu-nav {
+        display: block;
+    }
+    #logo img {
+        max-width: 155px;
+    }
+    a.logo {
+        display: block;
+    }
+    #lg-action {
+        opacity: 1;
+    }
+    .cta-container {
+        text-align: center;
+    }
+    .cta-btn {
+        float: none;
+    }
+    .iOSBugFixCaret {
+        position: fixed;
+    }
+    .logo {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .slide-container {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+    .cta-btn {
+        float: none;
+        margin: 0 0 15px;
+    }
+    .status-control {
+        top: 155px;
+    }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: landscape) {
+    #lg-action {
+        opacity: 1;
+    }
+    #porn-play {
+        display: none;
+    }
+    .slide-container {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+    #lg-action {
+        opacity: 1;
+    }
+    #porn-play {
+        display: none;
+    }
+    .slide-container {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #lg-action {
+        opacity: 1;
+    }
+    #porn-play {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    #lg-action {
+        opacity: 1;
+    }
+    .slide-container {
+        display: block;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #lg-action {
+        opacity: 1;
+    }
+    .slide-container {
+        display: block;
+    }
+    .logo {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+    .logo {
+        font-size: 44px;
+    }
+    .slide-container {
+        display: block;
+    }
+    #lg-action {
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+    .logo {
+        font-size: 44px;
+    }
+    .slide-container {
+        display: block;
+    }
+    #lg-action {
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    .slide-container {
+        display: none;
+    }
+    #lg-action {
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .logo {
+        font-size: 33px;
+        line-height: normal;
+    }
+    .cta-container .btn {
+        font-size: 0.8rem;
+    }
+}
